@@ -1,0 +1,20 @@
+{
+  "name": "screenshot-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.13.0",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.12.1"
+  }
+}
